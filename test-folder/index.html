@@ -2,22 +2,22 @@
 <html lang="en">
 
 <head>
-  <title>https://data-pt.etica.ai/</title>
+  <title>https://data-pt.etica.ai/test-folder</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
   <script>
-    // Snippet from TimE from Stackoverflow
+    // Snippet based on work from TimE from Stackoverflow
     // @see https://stackoverflow.com/questions/39048654/how-to-enable-directory-indexing-on-github-pages
     (async () => {
       // const response = await fetch('https://api.github.com/repos/:user/:repo/contents/');
-      const response = await fetch('https://api.github.com/repos/EticaAI/EticaAI-linguistic-datasets-pt-data/contents/');
+      const response = await fetch('https://api.github.com/repos/EticaAI/EticaAI-linguistic-datasets-pt-data/contents/test-folder');
       const data = await response.json();
       let htmlString = '<ul>';
       for (let file of data) {
-        htmlString += `<li><a href="${file.path}">${file.name}</a></li>`;
+        htmlString += `<li><a href="/${file.path}">${file.name}</a></li>`;
       }
       htmlString += '</ul>';
       document.getElementsByTagName('body')[0].innerHTML = htmlString;
