@@ -1,0 +1,4 @@
+# GitHub uses https://github.com/github/linguist to define rendering of files.
+# As 2020-12, the .hxl files are considered text files. The next line
+# will force them to use the CSV rendering until GitHub have native support
+*.hxl linguist-language=CSV
