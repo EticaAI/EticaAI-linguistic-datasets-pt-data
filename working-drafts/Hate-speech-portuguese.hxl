@@ -1,4 +1,4 @@
-,When non-hate speech,Description (English),Contexto,Discriminação religiosa?,Discriminação de sexo/genero?,Se ofensa étnica?
+Item,When non-hate speech,Description (English),Contexto,Discriminação religiosa?,Discriminação de sexo/genero?,Se ofensa étnica?
 #name+x_hate+i_pt,#description+x_hate_nothate+i_en,#description+i_en,#meta+url,#indicator+hate_religious+bool,#indicator+hate_gender+bool,#indicator+hate_ethnicity+bool
 Bicha,"In Portugal is a very common word for ""line of people"". But in Brazil is ofensive",Ofense against gays,,,,
 Viado,,Gay (but very ofensive),https://pt.wiktionary.org/wiki/viado,0,,
